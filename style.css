@@ -12,6 +12,36 @@ html {
 a {
 	text-decoration: none;
 }
+h1 img{
+	width: 60px;
+}
+video {
+
+	
+	 min-width: 50%;
+	 min-height: 50%;
+	 width: 40%;
+	
+	
+	
+    
+	 filter:opacity(60%);
+	 transform: translateX(40%) translateY(5%);
+	}
+   
+.conta{
+	display: flex;
+	justify-content:space-around;
+	
+	position: relative;
+}
+.section-title:hover{
+	text-shadow: 2px 2px 8px #FF0000;
+	border: 2px solid #A5F1E9;
+	border-radius: 20px;
+	color: #A5F1E9;
+	transition:  all 0.2s ease-in;
+  }
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -40,6 +70,10 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+}
+
+.service-item:hover{
+	transform: scale(1.2)
 }
 .section-title span {
 	color: crimson;
@@ -208,7 +242,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/PXL_20230415_144002921.jpg);
+	background-image: url(./img/DSC_1329.JPG);
 	
 	 background-size: cover; 
 	background-position: center;
@@ -301,8 +335,9 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(./img/comp.png);
 	background-size: cover;
+	background-position: center;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
@@ -315,7 +350,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #13181f 0%, #040e18 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -365,7 +400,7 @@ p {
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
-	height: 100%;
+	height: 80%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
